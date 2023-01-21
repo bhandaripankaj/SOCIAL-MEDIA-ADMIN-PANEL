@@ -254,7 +254,7 @@ const Dashboard = ()=>{
                 <Paper elevation={0}>
                 <ListItem >
                     <ListItemAvatar sx={{position:"relative",cursor:"pointer"}} onClick={e=>setBasicMenu(true)}>
-                    <Avatar alt="Pankaj" src={RecentMessage[2``].image} />
+                    <Avatar alt="Pankaj" src={RecentMessage[2].image} />
                     </ListItemAvatar>
                     
                     <ListItemText primary="Pankaj Bhandari" secondary="@bhandari.dev" />
